@@ -1,0 +1,15 @@
+
+.debugarticle{
+    background-color: greenyellow;
+    width: 31.3%;
+    height: 565px;
+}
+
+.debugtext{
+    background-color: rgb(255, 47, 47);
+}
+
+.debugsection{
+    background-color: rgb(68, 47, 255);
+    height:600px;
+}

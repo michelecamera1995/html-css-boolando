@@ -1,0 +1,112 @@
+
+	* {
+        box-sizing:border-box;
+        margin:0px;
+        padding:0px;
+    }
+
+   body { 
+        width: 60%;
+        margin: 15px auto;
+    }
+
+    .clearfix:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+/* CARD */
+
+    .card { 
+        margin-top: 2%;
+        margin-left:1%;
+        margin-right: 1%;
+        position: relative;
+        float: left;
+    }
+
+    .img { 
+        width: 100%;
+     }
+
+     .heart { 
+        top: 15px;
+        right: 0px;
+        width:50px ;
+        height: 50px;
+        position: absolute;
+        content: ' \2764';
+        color: rgb(0, 0, 0);
+        background-color: white;
+     }
+
+     .card:hover heart { 
+        color: red;
+     }
+
+    .labelsale { 
+        position: absolute;
+        bottom:150px;
+        left: 0px;
+        width: 50px;
+        height:25px;
+        text-align: center;
+        padding: 4px;
+        background-color: rgb(160, 35, 35);
+        color: white;
+    }
+
+    .labeleco { 
+        position: absolute;
+        bottom:150px;
+        left: 55px;
+        width: 88px;
+        height:25px;
+        text-align: center;
+        padding: 4px;
+        background-color: rgb(72, 155, 58);
+        color: white;
+    }
+
+    .textblock { 
+        position: absolute;
+        bottom:40px;
+        left: 0px;
+     }
+
+    .brand { 
+        font-size: 15px;
+        color: grey;
+    }
+
+    .dressname { 
+
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+ 
+    .price {
+        color: red;
+        display: inline-block;
+    }
+
+    .sale {
+        text-decoration: grey line-through;
+        display: inline-block;
+    }
+    
+    .price:after {
+        content: '€';
+    }
+
+    .sale:after {
+        content: '€';
+    }
+
+
+
+
+
+
