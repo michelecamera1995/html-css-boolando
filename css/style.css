@@ -1,4 +1,6 @@
 
+/*GENERALI */   
+
 	* {
         box-sizing:border-box;
         margin:0px;
@@ -16,6 +18,7 @@
         display: table;
     }
 
+/* FINE GENERALI */   
 /* CARD */
 
     .card { 
@@ -28,20 +31,22 @@
 
     .img { 
         width: 100%;
+        height: 450px;
      }
 
      .heart { 
         top: 15px;
         right: 0px;
-        width:50px ;
-        height: 50px;
+        width:30px ;
+        height: 30px;
+        font-size: 25px;
+        text-align: center;
         position: absolute;
-        content: ' \2764';
         color: rgb(0, 0, 0);
         background-color: white;
      }
 
-     .card:hover heart { 
+     .card:hover .heart { 
         color: red;
      }
 
@@ -76,6 +81,7 @@
      }
 
     .brand { 
+        font-weight: bold;
         font-size: 15px;
         color: grey;
     }
@@ -90,11 +96,13 @@
     .price {
         color: red;
         display: inline-block;
+        font-weight: bold;
     }
 
     .sale {
         text-decoration: grey line-through;
         display: inline-block;
+        font-weight: bold;
     }
     
     .price:after {
