@@ -71,14 +71,12 @@
 
     .labelpos2 { 
         bottom:100px;
-        left: 55px;
+        left: 40px;
     }
 
 
     .labelsale { 
         position: absolute;
-        width: 50px;
-        height:25px;
         text-align: center;
         padding: 4px;
         background-color: rgb(160, 35, 35);
@@ -87,8 +85,6 @@
 
     .labeleco { 
         position:absolute;
-        width: 88px;
-        height:25px;
         text-align: center;
         padding: 4px;
         background-color: rgb(72, 155, 58);
